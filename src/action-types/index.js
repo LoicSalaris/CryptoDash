@@ -1,0 +1,2 @@
+export const SELECT_FIAT = 'SELECT_FIAT';
+export const CHANGE_TICKERS = 'CHANGE_TICKERS';
