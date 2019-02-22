@@ -1,3 +1,25 @@
+## Let's go ! 
+
+Install dependencies
+
+```sh
+yarn
+```
+or 
+```sh
+npm install
+```
+
+To lauch the project
+
+```sh
+yarn start
+```
+or
+```sh
+npm run start
+```
+============================================================================================================
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
