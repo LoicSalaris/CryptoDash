@@ -39,6 +39,7 @@ class List extends Component {
             );
         }
         const changeFormater = cell => <span style={ cell >= 0 ? { color: 'green' } : { color: 'red' } }>{ cell } %</span>
+        const nameFormater = (cell, row) => <span><img src={`https://s2.coinmarketcap.com/static/img/coins/16x16/${row.rank}.png`} alt="logo crypto"/> { cell }</span>
         const columns = [{
             dataField: 'rank',
             text: 'Rank',
@@ -47,7 +48,8 @@ class List extends Component {
         {
             dataField: 'name',
             text: 'Name',
-            sort: true
+            sort: true,
+            formatter: nameFormater
         }, 
         {
             dataField: `price_${fiat}`,
