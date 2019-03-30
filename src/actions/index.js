@@ -10,7 +10,7 @@ export const selectFiat = fiat => {
 
 export const loadTickers = (dispatch, fiat) => {
     const queryString = (fiat === 'usd' ? '' : '?convert=' + fiat.toUpperCase());
-
+    
     return axios.get('https://api.coinmarketcap.com/v1/ticker/' + queryString)
         .then(response => {
             dispatch(changeTickers(response.data));

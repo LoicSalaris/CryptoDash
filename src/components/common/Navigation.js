@@ -10,7 +10,7 @@ class Navigation extends Component {
             <Navbar collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <Link to="/">Heuritech CryptoDash</Link>
+                        <Link to="/">CryptoDash</Link>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
@@ -22,7 +22,6 @@ class Navigation extends Component {
                         <LinkContainer to="/settings">
                             <NavItem>Settings</NavItem>
                         </LinkContainer>
-                        <img src="https://www3.heuritech.com/wp-content/uploads/2018/12/logo-heuritech-v2-ia-for-fashion.png" alt="Heuritech" class="logo"/>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
